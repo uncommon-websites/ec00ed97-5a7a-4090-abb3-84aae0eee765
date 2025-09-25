@@ -26,20 +26,17 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Powering fusion. Opening access."
+	subtitle="Pulsed energy for science, space, and the grid"
+	imageSrc="/generated/image-a-research-team-of-diverse-scientists-an.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"For too long, groundbreaking research in space technology, materials science, and fusion energy has been bottlenecked by limited access to the most advanced pulsed power facilities. While companies like Airbus, Thales Alenia, and research institutions across Europe have pressing needs to test electronics under extreme radiation, study materials at megabar pressures, and validate fusion concepts, they face years-long waiting lists at government facilities or settle for inadequate approximations that don't capture real-world conditions.",
+		"Europa Energy was founded to democratize access to this critical technology through our impedance-matched Marx generators and magnetized liner inertial fusion approach. By achieving 200× higher energy coupling efficiency than laser-driven systems at one-tenth the capital cost, we're building Europe's first commercially accessible pulsed power facility. Our journey from proof-of-concept experiments to facility-scale operations focuses on creating repeatable, bookable access to the extreme conditions that drive innovation.",
+		"Our vision extends beyond access – we're pioneering the path to fusion energy on the grid while building a thriving ecosystem of research and development. Every experiment run at our facility advances not just individual projects, but the entire field of high-energy density physics. By making continuous rather than episodic research possible, we're accelerating the pace of discovery that will define the next generation of space exploration, materials engineering, and clean energy solutions."
 	]}
 />
 
