@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	
+	// Icons for Features
+	import IconZap from "~icons/lucide/zap";
+	import IconTrendingUp from "~icons/lucide/trending-up";
+	import IconUsers from "~icons/lucide/users";
+	import IconRefreshCw from "~icons/lucide/refresh-cw";
+	import IconTarget from "~icons/lucide/target";
+	import IconGlobe from "~icons/lucide/globe";
 </script>
 
 <CenteredTextOnlyHero
@@ -61,24 +69,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Technology advantages"
+	subtitle="Breakthrough pulsed power systems that democratize access to fusion-grade experimental conditions"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Impedance-matched Marx generators",
+			description: "Our proprietary Marx generator design delivers unmatched energy transfer efficiency through precision impedance matching. Revolutionary technology that sets new standards for pulsed power performance.",
+			icon: IconZap
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "200× higher energy coupling efficiency",
+			description: "Achieve fusion-grade conditions with dramatically superior efficiency compared to laser-driven systems. Game-changing performance that makes previously impossible experiments accessible.",
+			icon: IconTrendingUp
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Civilian access democratization", 
+			description: "Break free from government facility bottlenecks with dedicated civilian pulsed power access. Open scheduling and transparent pricing unlock continuous research workflows.",
+			icon: IconUsers
+		},
+		{
+			title: "Repeatable experimental conditions",
+			description: "Generate consistent, reproducible results with our stable pulsed power platform. Precision control enables systematic research programs and reliable data collection.",
+			icon: IconRefreshCw
+		},
+		{
+			title: "Multi-domain applications",
+			description: "Serve space radiation testing, materials science, biomedical research, and academic programs from a single platform. One facility, unlimited experimental possibilities.",
+			icon: IconTarget
+		},
+		{
+			title: "European pulsed power leadership",
+			description: "Establish Europe as a global leader in civilian pulsed power technology. Strategic independence from US facilities with world-class experimental capabilities.",
+			icon: IconGlobe
 		}
 	]}
 />
