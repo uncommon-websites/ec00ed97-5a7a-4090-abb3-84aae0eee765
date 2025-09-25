@@ -6,14 +6,13 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Power that moves science forward"
+	subtitle="Europa builds pulsed power platforms for civilian use—delivering fusion-grade conditions for industry, defense, space, and academia."
+	imageSrc="/generated/image-a-wide-angle-documentary-style-photograp.webp"
 />
 <LogoScroller 
 	label="Trusted by industry leaders"
