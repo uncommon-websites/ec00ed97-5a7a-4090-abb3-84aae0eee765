@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Access democratization",
+			description: "Opening Europe's first commercially accessible pulsed power facility, transforming episodic research into continuous innovation."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Technical excellence",
+			description: "Achieving 200× higher energy coupling efficiency through impedance-matched Marx generators and magnetized liner inertial fusion."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Scientific acceleration",
+			description: "Enabling breakthrough discoveries in space technology, materials science, and fusion energy by providing repeatable access to extreme conditions."
 		}
 	];
 </script>
@@ -41,61 +41,27 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Our founder."
+	subtitle="Leading Europe's pulsed power revolution."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Nantas Nardelli",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			bio: "Former head of ML at Pacific Fusion, AI lead at Carbon Re, and deep learning researcher with extensive experience in plasma physics modeling, target design, and fusion energy systems.",
+			image: "/generated/image-professional-headshot-of-a-male-ceo-in-a.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to partner with us?"
+	subtitle="Accelerate your research capabilities"
+	description="Join the space agencies, research institutions, and technology companies already leveraging our pulsed power facility to advance their most ambitious projects."
+	imageSrc="/generated/image-a-professional-research-scientist-deeply.webp"
 />
