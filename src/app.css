@@ -6,40 +6,49 @@
 @import "./theme.css";
 
 @theme {
-/* Colors */
---color-gray-50: oklch(0.985 0.001 106.423);
---color-gray-100: oklch(0.97 0.001 106.424);
---color-gray-200: oklch(0.923 0.003 48.717);
---color-gray-300: oklch(0.869 0.005 56.366);
---color-gray-400: oklch(0.709 0.01 56.259);
---color-gray-500: oklch(0.553 0.013 58.071);
---color-gray-600: oklch(0.444 0.011 73.639);
---color-gray-700: oklch(0.374 0.01 67.558);
---color-gray-800: oklch(0.268 0.007 34.298);
---color-gray-900: oklch(0.216 0.006 56.043);
---color-gray-950: oklch(0.147 0.004 49.25);
---color-primary-50: oklch(0.962 0.018 272.314);
---color-primary-100: oklch(0.93 0.034 272.788);
---color-primary-200: oklch(0.87 0.065 274.039);
---color-primary-300: oklch(0.785 0.115 274.713);
---color-primary-400: oklch(0.673 0.182 276.935);
---color-primary-500: oklch(0.585 0.233 277.117);
---color-primary-600: oklch(0.511 0.262 276.966);
---color-primary-700: oklch(0.457 0.24 277.023);
---color-primary-800: oklch(0.398 0.195 277.366);
---color-primary-900: oklch(0.359 0.144 278.697);
---color-primary-950: oklch(0.257 0.09 281.288);
---color-secondary-50: oklch(0.984 0.019 200.873);
---color-secondary-100: oklch(0.956 0.045 203.388);
---color-secondary-200: oklch(0.917 0.08 205.041);
---color-secondary-300: oklch(0.865 0.127 207.078);
---color-secondary-400: oklch(0.789 0.154 211.53);
---color-secondary-500: oklch(0.715 0.143 215.221);
---color-secondary-600: oklch(0.609 0.126 221.723);
---color-secondary-700: oklch(0.52 0.105 223.128);
---color-secondary-800: oklch(0.45 0.085 224.283);
---color-secondary-900: oklch(0.398 0.07 227.392);
---color-secondary-950: oklch(0.302 0.056 229.695);
+/* Europa Energy Brand Colors */
+/* Primary Brand Colors: #6F5CFB (primary), #1F2023 (dark), #FFFFFF (white) */
+/* Secondary Colors: #4C4F5A, #F7F8FA, #2C0E3A */
+/* Accent Colors: #39BFFF (blue), #8FE388 (green), #FFA31A (orange) */
+
+--color-white: #FFFFFF;
+--color-gray-50: #F7F8FA;
+--color-gray-100: #F1F3F4;
+--color-gray-200: #E5E8EB;
+--color-gray-300: #D1D6DC;
+--color-gray-400: #9CA3AF;
+--color-gray-500: #6B7280;
+--color-gray-600: #4C4F5A;
+--color-gray-700: #374151;
+--color-gray-800: #2C0E3A;
+--color-gray-900: #1F2937;
+--color-gray-950: #1F2023;
+
+/* Primary Purple - Europa Energy Brand Color #6F5CFB */
+--color-primary-50: #F4F1FF;
+--color-primary-100: #EBE5FF;
+--color-primary-200: #D8CCFF;
+--color-primary-300: #BEA6FF;
+--color-primary-400: #9E74FF;
+--color-primary-500: #8B5CF6;
+--color-primary-600: #6F5CFB;
+--color-primary-700: #5D4CDB;
+--color-primary-800: #4C3FB8;
+--color-primary-900: #3E3595;
+--color-primary-950: #2C0E3A;
+
+/* Secondary Blue - Europa Energy Accent #39BFFF */
+--color-secondary-50: #ECFCFF;
+--color-secondary-100: #CFF7FE;
+--color-secondary-200: #A5F0FC;
+--color-secondary-300: #67E5F7;
+--color-secondary-400: #22D1EE;
+--color-secondary-500: #39BFFF;
+--color-secondary-600: #0EA5E9;
+--color-secondary-700: #0284C7;
+--color-secondary-800: #0369A1;
+--color-secondary-900: #075985;
+--color-secondary-950: #0C4A6E;
 
 /* Typography */
 --font-family: "Inter";
